@@ -1,0 +1,415 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Test_book",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "chapters/01_intro/intro.html",
+    "href": "chapters/01_intro/intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "chapters/02_summary/summary.html",
+    "href": "chapters/02_summary/summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html",
+    "title": "3  Predictions with Data",
+    "section": "",
+    "text": "4 Financial Machine Learning"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#what-is-machine-learning",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#what-is-machine-learning",
+    "title": "3  Predictions with Data",
+    "section": "3.1 What is Machine Learning?",
+    "text": "3.1 What is Machine Learning?\nAn ML algorithm learns complex patterns in high-dimensional space with out being specifically directed.\n\nmay find patterns that can’t be easily represented by a finite set of equations\noften involves a large number of variables and interactions between them\nresearchers do not assume a particular structure of the data"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#categories-of-machine-learning",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#categories-of-machine-learning",
+    "title": "3  Predictions with Data",
+    "section": "3.2 Categories of Machine Learning",
+    "text": "3.2 Categories of Machine Learning\n\nSupervised - learning to make predictions from a set of feature and label observations.\nUnsupervised - learning patterns in a set of feature observations.\nDeep Learning - a subset of supervised learning consisting of multi-layered neural networks.\nReinforcement Learning - how intelligent agents ought to take action to maximize a reward.\n\nClassical Machine Learning: supervised and unsupervised\nDeep Learning: neural networks and reinforcement learning"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#regression-and-classification",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#regression-and-classification",
+    "title": "3  Predictions with Data",
+    "section": "3.3 Regression and Classification",
+    "text": "3.3 Regression and Classification\n\n\nThere are two categories of supervised learning.\nPredicting a quantitative (continuous) label is called regression.\nPredicting a qualitative (discrete) label is called classification.\nCertain prediction methods are better suited for regression or classification. Other methods work equally well for both."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#machine-learning-techniques",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#machine-learning-techniques",
+    "title": "3  Predictions with Data",
+    "section": "3.4 Machine Learning Techniques",
+    "text": "3.4 Machine Learning Techniques"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#neural-networks-and-their-applications",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#neural-networks-and-their-applications",
+    "title": "3  Predictions with Data",
+    "section": "3.5 Neural Networks and Their Applications",
+    "text": "3.5 Neural Networks and Their Applications\n\nFeed-Forward: non-linear function estimation\nConvolutional: image classification\nRecurrent: time-series analysis\n\nDeep-learning has many stunning success stories outside of finance (chat-bots, language translation, self-driving cars), but classical machine learning still dominates structured data."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#feed-forward-neural-network",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#feed-forward-neural-network",
+    "title": "3  Predictions with Data",
+    "section": "3.6 Feed-Forward Neural Network",
+    "text": "3.6 Feed-Forward Neural Network"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#universal-approximation-theorem",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#universal-approximation-theorem",
+    "title": "3  Predictions with Data",
+    "section": "3.7 Universal Approximation Theorem",
+    "text": "3.7 Universal Approximation Theorem\nA feed-forward neural network with a single hidden layer can approximate almost any function with arbitrary accuracy.\n\nHowever you may need a lot of units in the hidden layer.\n\nFrom a practical standpoint, you’re probably better off with multiple layers of modest size."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#variance-bias-trade-off-1-of-3",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#variance-bias-trade-off-1-of-3",
+    "title": "3  Predictions with Data",
+    "section": "3.8 Variance-Bias Trade-Off (1 of 3)",
+    "text": "3.8 Variance-Bias Trade-Off (1 of 3)\n\\[\\begin{align*}\n\\text{Forecast Error} \\,\\, = \\,\\, &\\text{In-Sample Error} \\, + \\\\[6pt]\n                        &\\text{Model Instability} \\, + \\\\[6pt]\n                        &\\text{Random Error}\n\\end{align*}\\]\nIn-Sample Error: bias\nModel Instability: variance\nRandom Error: irreducible noise"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#variance-bias-trade-off-2-of-3",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#variance-bias-trade-off-2-of-3",
+    "title": "3  Predictions with Data",
+    "section": "3.9 Variance-Bias Trade-Off (2 of 3)",
+    "text": "3.9 Variance-Bias Trade-Off (2 of 3)\n\nBias – if the model poorly fits historical data, it will likely poorly describe future data.\nVariance – if the model fits historical data too well, it has likely fit noise, and hence it will likely poorly describe future data.\n\nThe art of machine learning is finding the right balance between bias and model stability."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#variance-bias-trade-off-3-of-3",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#variance-bias-trade-off-3-of-3",
+    "title": "3  Predictions with Data",
+    "section": "3.10 Variance-Bias Trade-Off (3 of 3)",
+    "text": "3.10 Variance-Bias Trade-Off (3 of 3)\n\nModel flexibility comes at the cost of model instability."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#overfitting-and-underfitting",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#overfitting-and-underfitting",
+    "title": "3  Predictions with Data",
+    "section": "3.11 Overfitting and Underfitting",
+    "text": "3.11 Overfitting and Underfitting"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#machine-learning-vs-statistics-1-of-2",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#machine-learning-vs-statistics-1-of-2",
+    "title": "3  Predictions with Data",
+    "section": "3.12 Machine Learning vs Statistics (1 of 2)",
+    "text": "3.12 Machine Learning vs Statistics (1 of 2)\nMany of the ideas of machine learning have lived under the umbrella of statistics.\nSubstantive differences:\n\nNature of models:\n\nstatistics: small linear models\nML: large non-linear models\n\nModel selection: searching through many models to find the best performers; i.e. model tuning.\n\nregularization to prevent overfitting"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#machine-learning-vs-statistics-2-of-2",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#machine-learning-vs-statistics-2-of-2",
+    "title": "3  Predictions with Data",
+    "section": "3.13 Machine Learning vs Statistics (2 of 2)",
+    "text": "3.13 Machine Learning vs Statistics (2 of 2)\nSubstantive differences (cont’d):\n\nNovel optimization techniques.\n\ne.g stochastic gradient descent for large data sets\n\nA wide applicability to commercial contexts due to a focus on prediction accuracy."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#machine-learning-tools-and-technology",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#machine-learning-tools-and-technology",
+    "title": "3  Predictions with Data",
+    "section": "3.14 Machine Learning Tools and Technology",
+    "text": "3.14 Machine Learning Tools and Technology\n\nProgramming: Python, R, Julia, Scala\nPackages: sklearn, tidymodels, keras, tensorflow, Spark MLlib\nDistributed Computing: Spark\nVisualization: Shiny, Tableau, PowerBI, Looker\nLegacy: Excel, Matlab, SAS"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#non-financial-ml",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#non-financial-ml",
+    "title": "3  Predictions with Data",
+    "section": "4.1 Non-Financial ML",
+    "text": "4.1 Non-Financial ML\n\nApplications of ML in non-financial context have seen some stunning success:\n\nimage recognition\nstrategy games\nautonomous vehicles\nrobotics\n\nAll of these contexts have two characteristics:\n\nhigh signal to noise ratio\ntruly BIG data"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#the-promise-of-financial-ml",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#the-promise-of-financial-ml",
+    "title": "3  Predictions with Data",
+    "section": "4.2 The Promise of Financial ML",
+    "text": "4.2 The Promise of Financial ML\nFinancial ML offers the ability to extract insights from data:\n\nnon-linear relationships in high dimensional feature space\nhandling complex interactions\nfocus on prediction\ncontrolling for overfitting\n\nWarning: financial modeling is harder than driving cars or recognizing faces!"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#financial-ml-applications",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#financial-ml-applications",
+    "title": "3  Predictions with Data",
+    "section": "4.3 Financial ML Applications",
+    "text": "4.3 Financial ML Applications\n\nprice/return prediction\nhedging\nportfolio construction\nbet sizing\ncredit ratings\ntrade execution"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#evolution-not-revolution",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#evolution-not-revolution",
+    "title": "3  Predictions with Data",
+    "section": "4.4 Evolution not Revolution",
+    "text": "4.4 Evolution not Revolution\n\n…machine learning is the most recent embodiment of the long standing quantitative investing paradigm - the idea of using data-driven approaches to build more efficient portfolios…it is a natural evolution of quantitative tools in asset management, and not a revolutionary shift in the business model.\n\nCan Machines “Learn” Finance"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#financial-ml-vs-non-financial-ml",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#financial-ml-vs-non-financial-ml",
+    "title": "3  Predictions with Data",
+    "section": "4.5 Financial ML vs Non-Financial ML",
+    "text": "4.5 Financial ML vs Non-Financial ML\n\nFinancial ML is markedly different than many of the domains in which ML has been wildly successful.\n\nsmall data\nvery noisy\ncan’t generate new data via experimentation\n\nComplex models like neural networks can have literally millions of parameters to fit, and hence require a huge amount of data.\n\nWarning: returns prediction is harder than chess, go, and Atari."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#dogs-morphing-into-cats",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#dogs-morphing-into-cats",
+    "title": "3  Predictions with Data",
+    "section": "4.6 Dogs Morphing into Cats",
+    "text": "4.6 Dogs Morphing into Cats\n\nMarkets evolve.\nIn particular, if there is a model that is predictive of returns, then other market participant become aware of the model.\nAnd hence the predictive power of the model goes away.\n\nImage recognition analogy: “…dogs morph into cats as soon as the model gets good at predicting dogs.”"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#returns-prediction-small-data",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#returns-prediction-small-data",
+    "title": "3  Predictions with Data",
+    "section": "4.7 Returns Prediction: Small Data",
+    "text": "4.7 Returns Prediction: Small Data\n\nReturn prediction is an inherently small data problem.\nHFT has had more ML success because of larger data sets.\n\nhowever rebalance frequencies are capped by transaction costs\n\nTiny: monthly macro statistics (few hundred)\nSmallish: monthly cross-sectional equities data (few hundred thousand)\n\namount of data is over stated due to correlations"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#return-prediction-low-signal-to-noise",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#return-prediction-low-signal-to-noise",
+    "title": "3  Predictions with Data",
+    "section": "4.8 Return Prediction: Low Signal-to-Noise",
+    "text": "4.8 Return Prediction: Low Signal-to-Noise\n\nHigh volatility due to unanticipated news.\nVolatility is especially high relative to risk-premia which are small.\nAny return predictability is wiped away by trading, and all that remains is noise."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#interpretability-black-box",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#interpretability-black-box",
+    "title": "3  Predictions with Data",
+    "section": "4.9 Interpretability (Black-Box)",
+    "text": "4.9 Interpretability (Black-Box)\n\nMachine learning models can be hard to interpret, i.e. describe how an input observation results in a prediction.\nAntidotes:\n\nShapley numbers\nmean decrease accuracy\n\nChoosing predictability vs interpretability of a model is ultimately a business decision."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#pitfalls-of-financial-machine-learning",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#pitfalls-of-financial-machine-learning",
+    "title": "3  Predictions with Data",
+    "section": "4.10 Pitfalls of Financial Machine Learning",
+    "text": "4.10 Pitfalls of Financial Machine Learning\n\ndata sets that don’t contain edge\nsignals that have little investing capacity\nsignals that decay quickly\ndata sets that cost too much\nbuilding expensive infrastructure with little ROI\ndata scientists without financial knowledge\noverfitting"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#deep-learning-in-portfolio-management",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#deep-learning-in-portfolio-management",
+    "title": "3  Predictions with Data",
+    "section": "4.11 Deep Learning in Portfolio Management",
+    "text": "4.11 Deep Learning in Portfolio Management\nThe use of deep learning in asset management tends to be indirect:\n\nanalysis of parking lots images (convolutional)\nanalysis of crop images (convolutional)\ntext analysis for sentiment (recurrent)"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#well-known-ml-firms",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#well-known-ml-firms",
+    "title": "3  Predictions with Data",
+    "section": "4.12 Well Known ML Firms",
+    "text": "4.12 Well Known ML Firms\n\nRenaissance Technology\nTwo Sigma\nDE Shaw\nTGS\nCapital Fund Management"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#numerai",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#numerai",
+    "title": "3  Predictions with Data",
+    "section": "4.13 Numerai",
+    "text": "4.13 Numerai\n\n\n\ncrowd sourced hedge fund\nfounded by ex-RenTech executives\ntrading decision based on a data-science tournament using anonymized data\nparticipant enter the tournament by “staking” Numeraire, a bespoke crypto-currency"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#big-data-revolution---root-causes",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#big-data-revolution---root-causes",
+    "title": "3  Predictions with Data",
+    "section": "5.1 Big Data Revolution - Root Causes",
+    "text": "5.1 Big Data Revolution - Root Causes\n\nA huge increase in the amount of available data:\n\norder-book\nsocial media\nphones\nIOT\n\nIncrease in cheap computing and digital storage.\nAdvances in machine learning techniques.\nProliferation of open sources tooling, e.g. Python and R."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#programmatic-apis",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#programmatic-apis",
+    "title": "3  Predictions with Data",
+    "section": "5.2 Programmatic APIs",
+    "text": "5.2 Programmatic APIs\nData providers like Refinitiv and Bloomberg have programmatic APIs have caused an explosion in data-driven finance:\n\nstructured historical (EOD prices)\nstructured streaming (real time fills and order-book)\nunstructured historical (articles)\nunstructured streaming (real time NLP of commodity reports)"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#improvements-in-hardware",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#improvements-in-hardware",
+    "title": "3  Predictions with Data",
+    "section": "5.3 Improvements in Hardware",
+    "text": "5.3 Improvements in Hardware\n\nPerformance: GPUs and TPU have a parallel architecture\nCost: have come down tremendously; now attainable to individual researchers\nPower: electricity usage has come down\nCloud Computing: AWS, GCP, Azure\nOpen Source Technologies: Python, R, Spark"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#categories-of-alternative-data",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#categories-of-alternative-data",
+    "title": "3  Predictions with Data",
+    "section": "5.4 Categories of Alternative Data",
+    "text": "5.4 Categories of Alternative Data\nIt is useful to categorize alternative data by how it is generated:\n\npeople: social media, product reviews, search trends\nbusiness processes: company exhaust data, commercial transactions, credit card data\nsensors: satellite images, foot and car traffic, ship locations\n\nCharacteristics:\n\nhigh volume\nhigh velocity\nvariety - formats, structured, unstructured"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#alternative-data-categories",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#alternative-data-categories",
+    "title": "3  Predictions with Data",
+    "section": "5.5 Alternative Data Categories",
+    "text": "5.5 Alternative Data Categories"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#big-data-workflow",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#big-data-workflow",
+    "title": "3  Predictions with Data",
+    "section": "5.6 Big Data Workflow",
+    "text": "5.6 Big Data Workflow"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#how-processed-do-you-want-the-data",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#how-processed-do-you-want-the-data",
+    "title": "3  Predictions with Data",
+    "section": "5.7 How Processed Do You Want the Data?",
+    "text": "5.7 How Processed Do You Want the Data?\n\nraw data\nsemi-processed data\nsignals and reports"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#econometrics",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#econometrics",
+    "title": "3  Predictions with Data",
+    "section": "6.1 Econometrics",
+    "text": "6.1 Econometrics\n\nEncompasses the set of statistical methods applied to economic and financial data.\nThe purpose is to test economics theories, not make predictions.\n\ninference vs prediction\n\nConcentration on multivariate linear regression.\n\nConcepts central to machine learning are largely absent from econometric literature: classifier, clustering, neural networks, machine learning\n\nthe situation is better in biostatistics and chemeometrics."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#the-popularity-of-regression-ols",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#the-popularity-of-regression-ols",
+    "title": "3  Predictions with Data",
+    "section": "6.2 The Popularity of Regression (OLS)",
+    "text": "6.2 The Popularity of Regression (OLS)\n\ncenturies old\nsimplicity\nscalability\nflexibility (e.g. polynomial, LOESS)\nspeed\navailability (R, SAS, Python)"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#faulty-assumptions-of-regression-ols",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#faulty-assumptions-of-regression-ols",
+    "title": "3  Predictions with Data",
+    "section": "6.3 Faulty Assumptions of Regression (OLS)",
+    "text": "6.3 Faulty Assumptions of Regression (OLS)\n\nlinearity of labels to features\nindependence of features\nzero mean homoskedastic residuals\nno auto-correlation of residuals"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#correlation",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#correlation",
+    "title": "3  Predictions with Data",
+    "section": "6.4 Correlation",
+    "text": "6.4 Correlation\nCorrelation is the foundation of econometrics.\nHere are the problems with correlations:\n\nmost useful for linear codependencies, but most in finance are non-linear\nmost useful for multivariate normal distributions (finance is non-normal)\nextremely noisy\nsensitive to outliers"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#boring-data-sets",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#boring-data-sets",
+    "title": "3  Predictions with Data",
+    "section": "6.5 Boring Data Sets",
+    "text": "6.5 Boring Data Sets\nMost interesting data sets can be tackled by machine learning but not econometrics.\n\nunstructured data – less that 20% of all data is structured\nhigh dimensionality – more features than observations\nnoisy – lots noise/randomness per unit of signal\n\nEconometrics models uninteresting data."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#in-sample-vs-out-of-sample",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#in-sample-vs-out-of-sample",
+    "title": "3  Predictions with Data",
+    "section": "6.6 In-Sample vs Out-of-Sample",
+    "text": "6.6 In-Sample vs Out-of-Sample\n\nIn-sample variance adjudication is the goal of classical statistics/econometrics.\nMachine learning attempts to predict out-of-sample.\n\nthis has more practical value\n\nInference vs prediction."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#high-expectations",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#high-expectations",
+    "title": "3  Predictions with Data",
+    "section": "6.7 High Expectations",
+    "text": "6.7 High Expectations\n\nA typical econometric model will look like: \\[\\begin{align*}\ny_{t} = f(x_{1,t},\\ldots, x_{p,t}) + \\epsilon_{t}\n\\end{align*}\\] where \\(f\\) is some polynomial of the \\(x_{i,t}\\).\nThis means that an econometrician needs to correctly identify \\(f\\) as well as the relevant \\(x_{i}\\).\nGiven the complexity of financial systems, this is not realistic."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#parametric-vs-learning",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#parametric-vs-learning",
+    "title": "3  Predictions with Data",
+    "section": "6.8 Parametric vs Learning",
+    "text": "6.8 Parametric vs Learning\n\nTraditional models don’t learn from the data.\nRather, we are required to provide the exact functional (parametric) specification in order to reach useful conclusions."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#limitations-of-p-values",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#limitations-of-p-values",
+    "title": "3  Predictions with Data",
+    "section": "6.9 Limitations of \\(p\\)-Values",
+    "text": "6.9 Limitations of \\(p\\)-Values\nFeature importance in financial econometrics relies on \\(p\\)-values. However:\n\nrequire unrealistic assumptions to be valid\n\ne.g. white noise Gaussian residuals\n\nfail in the common case of multi-collinearity\nassess significance in-sample vs. out-of-sample"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#mean-decrease-accuracy-mda",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#mean-decrease-accuracy-mda",
+    "title": "3  Predictions with Data",
+    "section": "6.10 Mean Decrease Accuracy (MDA)",
+    "text": "6.10 Mean Decrease Accuracy (MDA)\nMDA is an ML technique for assessing feature importance that is more robust that \\(p\\)-values.\n\nfit a machine learning algorithm on the training set, estimate the out-of-sample accuracy\nshuffle one variable at a time and re-estimate the out-of-sample accuracy\nevaluate the decay in out-of-sample accuracy from shuffling each variable"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#long-range-forecasting",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#long-range-forecasting",
+    "title": "3  Predictions with Data",
+    "section": "6.11 Long-Range Forecasting",
+    "text": "6.11 Long-Range Forecasting\nUsing small amounts of structured data to make long-term forecasts.\n\nprice time series data (stat arb, CTA)\ncross-sectional data (asset pricing, factor investing)\n\nForecasts rely on statistical relationships between lagged observation and future outcome.\n\nhowever these relationships don’t always hold"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#short-term-forecasting-now-casting",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#short-term-forecasting-now-casting",
+    "title": "3  Predictions with Data",
+    "section": "6.12 Short-Term Forecasting (Now-Casting)",
+    "text": "6.12 Short-Term Forecasting (Now-Casting)\nUsing a large amount of unstructured data to make short-term predictions:\n\nliquidity conditions based on millions of FIX messages\nearnings of retailer based on parking lot occupancy satellite images\nindustrial production based on cargo shipments, auto production, electricity consumption"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#what-is-mlops",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#what-is-mlops",
+    "title": "3  Predictions with Data",
+    "section": "7.1 What is MLOps?",
+    "text": "7.1 What is MLOps?\n\nMLOps is a set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently.\n\nWikipedia"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#from-prototype-to-production-1-of-2",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#from-prototype-to-production-1-of-2",
+    "title": "3  Predictions with Data",
+    "section": "7.2 From Prototype to Production (1 of 2)",
+    "text": "7.2 From Prototype to Production (1 of 2)\nSomewhere a quant has accomplished the following:\nimport pandas as pd\nfrom sklearn.ensemble import RandomForestClassifier\n\nX = pd.read_csv('features.csv')\ny = pd.read_csv('labels.csv')\n\nmodel = RandomForestClassifier()\nmodel.fit(X, y)\n\n\nNOW WHAT??"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#from-prototype-to-production-2-of-2",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#from-prototype-to-production-2-of-2",
+    "title": "3  Predictions with Data",
+    "section": "7.3 From Prototype to Production (2 of 2)",
+    "text": "7.3 From Prototype to Production (2 of 2)\nYou probably want to:\n\ndocument the model\n\nmodel card\n\nmake the model accessible to other processes\n\nvia an API\n\norganize versions of the model as training data is updated\ntrack the performance of the model through time"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#vetiver---python-and-r",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#vetiver---python-and-r",
+    "title": "3  Predictions with Data",
+    "section": "7.4 Vetiver - Python and R",
+    "text": "7.4 Vetiver - Python and R\n\n\n\nopen source packages developed by RStudio\nideal for versioning, deploying, monitoring models\nworks seemlessly with RStudio Connect, but can be used elsewhere"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#rebrand",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#rebrand",
+    "title": "3  Predictions with Data",
+    "section": "8.1 Rebrand",
+    "text": "8.1 Rebrand\n\n\n\n\n\nRStudio is becoming Posit!"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#quarto-next-gen-r-markdown",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#quarto-next-gen-r-markdown",
+    "title": "3  Predictions with Data",
+    "section": "8.2 Quarto: Next-Gen R Markdown",
+    "text": "8.2 Quarto: Next-Gen R Markdown\n\nThis presentation was created with Quarto in a Jupyter Notebook. No R!"
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#section",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#section",
+    "title": "3  Predictions with Data",
+    "section": "8.3 ",
+    "text": "8.3 \n\nOver a decade of Shiny development brought into the Python ecosystem."
+  },
+  {
+    "objectID": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#references",
+    "href": "chapters/03_machine_learning_in_finance/machine_learning_in_finance.html#references",
+    "title": "3  Predictions with Data",
+    "section": "9.1 References",
+    "text": "9.1 References\nAdvances in Financial Machine Learning, Marcos López de Prado (2018)\nArtificial Intelligence in Finance, Yves Hilpsich (2020)\nBig Data and AI Strategies, JP Morgan (2017)\nCan Machines “Learn” Finance?, Ronen Israel, Bryan Kelly, Tobias Moskowitz (2020)"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  }
+]
